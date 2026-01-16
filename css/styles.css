@@ -1,0 +1,142 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  color: var(--slate);
+  background-color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* default styles reset*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--navy-blue);
+}
+
+.logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.dark-logo {
+  color: var(--navy-blue);
+}
+
+.nav-link {
+  color: var(--navy-blue);
+  font-weight: 500;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--ocean);
+}
+
+.contact {
+  font-style: normal;
+}
+
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  text-align: center;
+}
+
+.order-btn {
+  background-color: var(--iris);
+  color: var(--white);
+  font-weight: 500;
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--ocean);
+}
+
+/* same styles for same level titles */
+.small-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+.member-card {
+  background-color: var(--white);
+}
+
+.member-info {
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.light-logo {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+}
